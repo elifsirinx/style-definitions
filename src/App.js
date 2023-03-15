@@ -1,5 +1,8 @@
 import "./App.css";
 
+import A from "./components/A";
+import B from "./components/B";
+
 function App() {
   return (
     //Js'de bir değişken tanımlarken "-" ifadesini kullanamazsınız.
@@ -12,7 +15,7 @@ function App() {
      */
     <div className="App">
       <header className="App-header">
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
@@ -27,7 +30,10 @@ function App() {
           consectetur, adipisci velit..." <br />
           "There is no one who loves pain itself, who seeks after it and wants
           to have it, simply because it is pain..."
-        </div>
+        </div> */}
+
+        <A />
+        <B />
       </header>
     </div>
   );
